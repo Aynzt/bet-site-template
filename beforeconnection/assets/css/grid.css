@@ -1,0 +1,59 @@
+.content{
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows:  40vh 40vh;
+    grid-auto-flow: row;
+    gap: 10px;
+    
+}
+
+/*second navbar
+.nav2{
+    position: relative;
+    right: -10px;
+    border: 2px solid red;
+    background-color: var(--color-serenity);
+    
+    
+    
+}
+*/
+.selection{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+    
+}
+
+.search-by-date{
+    justify-content: flex-end;
+}
+
+/*end of second navbar*/
+
+.advertissement{
+    border: 2px solid red;
+    
+    
+    
+}
+.advertissement>.images{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1px;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+}
+.advertissement>.images>div>img{
+   
+    
+}
+
+.table{
+    border: 2px solid red;
+}
+
